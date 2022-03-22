@@ -34,7 +34,7 @@ const PostCard = ({ post }) => (
           unoptimized
           loader={graphCMSImageLoader}
           alt={post.author.name}
-          height="60px"
+          height="75px"
           width="75px"
           className="rounded-full align-middle"
           src={post.author.photo.url}
