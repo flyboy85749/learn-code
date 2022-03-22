@@ -4,7 +4,7 @@ This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](
 
 ## Preview
 
-<img src="images/ldc_screenshot.png" />
+<img src="public/images/ldc_screenshot.png" />
 
 ## Deploy your own
 
