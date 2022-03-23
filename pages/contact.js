@@ -34,7 +34,7 @@ const Contact = () => {
       </div>
       <div className="mt-8">
         <button
-          type="button"
+          type="submit"
           
           className="ease inline-block cursor-pointer rounded-full bg-pink-600 px-8 py-3 text-lg font-medium text-white transition duration-500 hover:bg-indigo-900"
         >
