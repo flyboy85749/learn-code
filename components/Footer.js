@@ -9,8 +9,8 @@ const Footer = () => {
       <div>
         <p className="mb-8 px-4 text-center text-lg font-normal text-white lg:px-20">
           Copyright &copy; {moment().format('YYYY')}{' '}
-          <a href="https://christianwebdeveloper.com" target="_blank">
-            Christian Web Developer
+          <a href="https://learn-code.com" target="_blank">
+            Learn Dash Code
           </a>
         </p>
       </div>
