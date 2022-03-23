@@ -7,7 +7,7 @@ const Contact = () => {
         Leave a Reply
       </h3>
       <form
-        action="https://formsubmit.co/bill@christianwebdeveloper.com"
+        action="https://formsubmit.co/c1f15440d142aa0c1834037db4b7942c"
         method="POST"
       >
         <div className="mb-4 grid grid-cols-1 gap-4 lg:grid-cols-2">
