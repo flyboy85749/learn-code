@@ -10,7 +10,7 @@ const Header = () => {
         <div className="inline-flex items-center">
           <Link href="/" passHref>
             
-          <Image className="logo cursor-pointer" src="https://media.graphcms.com/5oSms2RT6STadg1xy5Hf" alt="logo image"height="100px" width="115px" passHref />
+          <Image className="logo cursor-pointer" src="https://media.graphcms.com/5oSms2RT6STadg1xy5Hf" alt="logo image"height="115px" width="150px" passHref />
           </Link>
           <span className="text-4xl font-bold text-white">
               Learn Dash Code
