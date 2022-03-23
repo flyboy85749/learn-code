@@ -8,9 +8,9 @@ const Header = () => {
     <div className="container mx-auto mb-8 px-10">
       <div className="inline-block w-full border-b border-blue-400 py-8">
         <div className="inline-flex items-center">
-          <Link href="/">
+          <Link href="/" passHref>
             
-          <Image className="logo cursor-pointer" src="https://media.graphcms.com/5oSms2RT6STadg1xy5Hf" height="100px" width="115px" />
+          <Image className="logo cursor-pointer" src="https://media.graphcms.com/5oSms2RT6STadg1xy5Hf" height="100px" width="115px" passHref />
           </Link>
           <span className="text-4xl font-bold text-white">
               Learn Dash Code
@@ -18,10 +18,10 @@ const Header = () => {
           
         </div>
         <div className="block float-right mt-10">
-          <Link href="/about">
+          <Link href="/about" passHref>
             <span className="cursor-pointer text-2xl text-white mr-12">About</span>
           </Link>
-          <Link href="/contact">
+          <Link href="/contact" passHref>
             <span className="cursor-pointer text-2xl text-white">Contact</span>
           </Link>
         </div>

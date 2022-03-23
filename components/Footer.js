@@ -1,5 +1,6 @@
 import React from 'react'
 import moment from 'moment'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -9,9 +10,9 @@ const Footer = () => {
       <div>
         <p className="mb-8 px-4 text-center text-lg font-normal text-white lg:px-20">
           Copyright &copy; {moment().format('YYYY')}{' '}
-          <a href="https://learn-code.com" target="_blank">
+          <Link href="https://learn-code.com" target="_blank" rel="noreferrer">
             Learn Dash Code
-          </a>
+          </Link>
         </p>
       </div>
       </>
