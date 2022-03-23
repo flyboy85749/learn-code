@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 import Link from 'next/link'
 
 
@@ -10,7 +10,7 @@ const Header = () => {
         <div className="inline-flex items-center">
           <Link href="/">
             
-          <img className="logo cursor-pointer" src="https://media.graphcms.com/5oSms2RT6STadg1xy5Hf" />
+          <Image className="logo cursor-pointer" src="https://media.graphcms.com/5oSms2RT6STadg1xy5Hf" />
           </Link>
           <span className="text-4xl font-bold text-white">
               Learn Dash Code

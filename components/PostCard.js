@@ -2,7 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import moment from 'moment'
 import Link from 'next/link'
-
 import { graphCMSImageLoader } from '../util'
 
 const PostCard = ({ post }) => (
@@ -18,7 +17,7 @@ const PostCard = ({ post }) => (
       />
     </div> */}
     <div className="relative mb-6 overflow-hidden pb-80 shadow-md">
-      <img
+      <Image
         src={post.featuredimage.url}
         alt=""
         className="absolute h-80 w-full rounded-t-lg object-cover  object-top shadow-lg lg:rounded-lg"
