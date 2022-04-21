@@ -46,7 +46,7 @@ const PostDetail = ({ post }) => {
     <>
       <div className="bg-white shadow-lg rounded-lg lg:p-8 pb-12 mb-8">
         <div className="relative overflow-hidden shadow-md mb-6">
-          <Image src={post.featuredimage.url} alt="" className="object-top h-full w-full object-cover  shadow-lg rounded-t-lg lg:rounded-lg" />
+          <Image src={post.featuredimage.url} alt="" layout="fill" className="object-top h-full w-full object-cover  shadow-lg rounded-t-lg lg:rounded-lg" />
         </div>
         <div className="px-4 lg:px-0">
           <div className="flex items-center mb-8 w-full">

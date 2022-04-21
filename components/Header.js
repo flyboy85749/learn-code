@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
-    <div className="container mx-auto mb-8 px-10">
+    <div className="container mx-auto sm:mx-0 mb-8 px-10 sm:px-0">
       <div className="inline-block w-full border-b border-blue-400 py-8">
         <div className="inline-flex items-center">
           <Link href="/" passHref>
