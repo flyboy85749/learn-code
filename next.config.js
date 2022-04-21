@@ -1,7 +1,8 @@
-/** @type {import('next').NextConfig} */
-module.exports = {
-  reactStrictMode: true,
+const withImages = require('next-images');
+
+module.exports = 
+  withImages ({
   images: {
-    domains: ['http://localhost:3000', 'https://www.learn-code.com', 'media.graphcms.com']
-  }
-}
+    domains: ['localhost:3000', 'learn-code.com', 'media.graphcms.com', 'media.graphassets.com']
+  },
+});
