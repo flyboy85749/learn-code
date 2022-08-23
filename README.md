@@ -1,4 +1,6 @@
-# Next.js + Tailwind CSS Example
+# This is my blog for teaching coding
+
+It is created with Nextjs, Tailwind, and GraphCMS on the backend. 
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
